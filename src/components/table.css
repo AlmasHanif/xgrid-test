@@ -1,0 +1,35 @@
+
+
+.table-container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border: black 1px solid;
+  }
+  
+  table {
+    display: table-header-group;
+    font-weight: 700;
+  }
+
+  tbody{
+    display: table-row-group;
+  }
+  
+  tr {
+    display: table-row;
+  }
+  
+  tr > td {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid black;
+  }
+ td :hover {
+  background-color: gainsboro;
+  }
+  
+  tr > td[colspan="2"] {
+    width: calc(100% / 3 * 2);
+  }
+  
